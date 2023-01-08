@@ -1,4 +1,4 @@
-ARG VER=1.25.2
+ARG VER=1.29.0
 FROM mcr.microsoft.com/playwright:v${VER}-focal
 
 RUN apt update && \
